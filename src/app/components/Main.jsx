@@ -1,5 +1,5 @@
 import React from "react";
-
+import "animate.css";
 function Main() {
   return (
     <div className="flex justify-center">

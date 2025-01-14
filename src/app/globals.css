@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 .box-image {
   background-color: red;
   height: 600px;
@@ -9,6 +9,7 @@
 }
 
 .btn-1 {
+  font-size: 12px;
   border-radius: 20px;
   background-color: black;
   color: white;
@@ -17,10 +18,21 @@
 }
 
 .btn-2 {
+  font-size: 12px;
+
   border: 1px solid black;
   border-radius: 20px;
   background: none;
   color: black;
   height: 30px;
   width: 100px;
+}
+
+p {
+  font-size: 16px;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

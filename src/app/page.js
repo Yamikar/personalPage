@@ -10,14 +10,6 @@ export default function Home() {
       <br />
       <br />
       <Section />
-      <br />
-      <Section />
-      <br />
-      <Section />
-      <br />
-      <Section />
-      <br />
-      <Main />
     </div>
   );
 }
